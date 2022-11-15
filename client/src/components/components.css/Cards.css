@@ -1,0 +1,55 @@
+.main-container-card {
+    text-decoration: none;
+    background-color: rgba(71, 50, 50, 0.2);
+    color: #717D7E  ;
+    /*es oscuro pero transparente*/
+    backdrop-filter: blur(2px);
+    /*transparenta*/
+    width: 300px;
+    /*El ancho que le quiero dar*/
+    height: 300px;
+    position: relative;
+    margin: 60px auto;
+    /*a 60px del margen*/
+    border-radius: 10px;
+    -webkit-box-shadow: -9px 11px 19px 1px rgba(0, 0, 0, 0.58);
+    /*los tres hacen una sombra que sobresale un poco del fondo */
+    -moz-box-shadow: -9px 11px 19px 1px rgba(0, 0, 0, 0.58);
+    box-shadow: -9px 11px 19px 1px rgba(0, 0, 0, 0.58);
+    transition: .3s all;
+}
+
+.main-container-card:hover {
+    background-color: rgba(136, 119, 98, 0.5);
+    backdrop-filter: blur(2px);
+    transform: traslateY(-15px);
+    box-shadow: 0 12px 16px rgb(0, 0, 0, 0, 0.2);
+
+}
+.main-container-card:active{
+    background-color: #212F3C ;
+}
+
+.image-dog-card img {
+    width: 70%;
+    border-radius: 10px;
+}
+
+
+.link-to-details a {
+    text-decoration: none;
+    color: #455F6C;
+}
+
+
+.information-dog-card {
+    /* font-family: "Times New Roman", Times, serif; */
+    padding: 10px 10px;
+    border: none;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #b5b5b5;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0 4px #999;
+}

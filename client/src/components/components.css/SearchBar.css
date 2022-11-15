@@ -1,0 +1,31 @@
+.search-bar {
+    justify-content: right;
+    align-items: center;
+    /* box-sizing: border-box;*/
+    margin-top: 35px;
+   margin-right: 30px;
+}
+
+.button-search {
+    padding: 10px 10px;
+    border: none;
+    height: 30px;
+    border-radius: 8px;
+    background-color: #b5b5b5;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0 4px #999;
+}
+.button-search:hover {background-color: lightgray}
+  
+.button-search:active{
+    background-color:#666666; 
+    box-shadow: 0 5px #515151;
+    transform: translateY(4px);
+}
+
+.input-search{
+    border-radius: 5px;
+    height: 24px;
+    border: 1px;
+}
