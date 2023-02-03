@@ -22,7 +22,7 @@ function validate(input) {
     }
     return errors
 }
-
+const laCOnchaDeTUHErmana=0
 
 export default function CreateDog() {
     const dispatch = useDispatch();
