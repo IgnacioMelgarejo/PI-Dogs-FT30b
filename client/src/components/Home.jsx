@@ -85,7 +85,6 @@ export default function Home() {
                 
             </nav>
 
-            <h1 className="dog-title">DOGS</h1>
             <button className="cargaPerro" onClick={e => { handleClick(e) }}>
                 Refresh Dogs
             </button>
